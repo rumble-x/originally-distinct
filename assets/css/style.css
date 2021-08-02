@@ -2770,6 +2770,7 @@ CONTACT INFO AREA End
     border-radius: 50px;
     visibility: visible;
     justify-content: center !important;
+    bottom:90px;
   }
 
 }
@@ -2864,7 +2865,7 @@ CONTACT INFO AREA End
   }
 
   .mainmenu-area {
-    bottom: 340px;
+    bottom: 320px;
   }
 }
 
