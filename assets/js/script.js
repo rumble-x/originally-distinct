@@ -18,7 +18,7 @@ $(document).ready(function() {
 		// 	$('#project-title').hide();
 		// 	$('#bars').hide();
 		// 	$('#artist-name').hide();
-
+		//
 		setTimeout(function(){
 			$('body').removeClass("noscroll");
 			$('body').addClass('loaded');

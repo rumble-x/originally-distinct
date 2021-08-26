@@ -519,7 +519,7 @@ and (min-resolution: 192dpi) {
     top: 0;
     width: 51%;
     height: 100%;
-    background: black;
+    background: white;
     z-index: 1000;
     -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: translateX(0);  /* IE 9 */
