@@ -2999,3 +2999,16 @@ CONTACT INFO AREA End
 #portfolio {
   max-height: 23px !important;
 }
+
+#music-box {
+  margin-top:30px;
+}
+
+@media screen and (min-width: 768px) {
+
+  #music-box {
+    margin-top:150px;
+  }
+
+
+}
