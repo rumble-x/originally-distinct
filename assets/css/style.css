@@ -2991,3 +2991,11 @@ CONTACT INFO AREA End
   background: #b31a1a !important;
   border-color: #5a1b1b !important;
 }
+
+#vip {
+  max-height:16px;
+}
+
+#portfolio {
+  max-height: 23px !important;
+}
