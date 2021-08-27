@@ -3089,6 +3089,11 @@ CONTACT INFO AREA End
   color:black;
 }
 
+.rumble-x {
+  border: 1px solid grey;
+  padding: 2px
+}
+
 #footer {
   position: absolute;
   bottom: 0;
