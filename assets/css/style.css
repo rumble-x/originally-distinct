@@ -3085,14 +3085,14 @@ CONTACT INFO AREA End
 }
 
 .copyright {
-  font-size:9px;
+  font-size:8px;
   color:black;
 }
 
-.rumble-x {
+/* .rumble-x {
   border: 1px solid grey;
-  padding: 2px
-}
+  padding: 2px;
+} */
 
 #footer {
   position: absolute;
@@ -3105,4 +3105,5 @@ CONTACT INFO AREA End
   /* margin: 0 auto; */
   font-size: 12px !important;
   text-align: center;
+  margin-top:20px;
 }
