@@ -3089,6 +3089,16 @@ CONTACT INFO AREA End
   color:black;
 }
 
+@media screen and (max-width: 425px) {
+
+  .copyright {
+    font-size:8px;
+    color:black;
+    margin-top:40px;
+  }
+
+}
+
 /* .rumble-x {
   border: 1px solid grey;
   padding: 2px;
