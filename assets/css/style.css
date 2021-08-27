@@ -3083,3 +3083,21 @@ CONTACT INFO AREA End
   line-height: 1.5;
 }
 }
+
+.copyright {
+  font-size:9px;
+  color:black;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: white;
+  color: black !important;
+  z-index: 1;
+  /* margin: 0 auto; */
+  font-size: 12px !important;
+  text-align: center;
+}
