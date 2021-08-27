@@ -117,7 +117,7 @@
   #rumble-credit {
     top:50%;
     font-size:20px;
-    margin-top:-100px;
+    margin-top:-180px;
   }
 
   #project-title {
@@ -137,7 +137,7 @@
   #rumble-credit {
     top:50%;
     font-size:22px;
-    margin-top:-90px;
+    margin-top:-260px;
   }
 
   #project-title {
@@ -315,7 +315,7 @@
 @media only screen and (min-width: 768px) {
   #rumble-credit {
     font-size:32px;
-    margin-top:-70px;
+    margin-top:-300px;
   }
 
   #project-title {
@@ -433,7 +433,7 @@ and (min-resolution: 192dpi) {
 
   #rumble-credit {
     font-size:30px;
-    margin-top:-45px;
+    margin-top:-430px;
   }
 
   #project-title {
@@ -459,7 +459,7 @@ and (min-resolution: 192dpi) {
 @media only screen and (min-width: 1601px) {
   #rumble-credit {
     font-size:32px;
-    margin-top:-45px;
+    margin-top:-175px;
   }
 
   #project-title {
@@ -511,6 +511,13 @@ and (min-resolution: 192dpi) {
     z-index: 1000;
 
 
+}
+
+#og-image {
+  width: 240px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 
