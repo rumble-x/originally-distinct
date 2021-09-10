@@ -3117,3 +3117,9 @@ CONTACT INFO AREA End
   text-align: center;
   margin-top:20px;
 }
+
+#shoesize {
+  color: black !important;
+  background: white;
+  width: 100%;
+}
