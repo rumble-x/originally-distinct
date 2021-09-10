@@ -3123,3 +3123,7 @@ CONTACT INFO AREA End
   background: white;
   width: 100%;
 }
+
+#shoe-success, #shoe-error, #consult-success, #consult-error {
+  text-align:center;
+}

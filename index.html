@@ -745,13 +745,14 @@
             <div class="col-lg-6">
               <div class="home-page-form">
                 <div class="contact-form">
-                  <form id="contact-form" method="post" action="">
+                  <form id="consult-form" method="post" action="">
                     <div class="controls">
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-group">
                             <i class="fa fa-user-o"></i>
                             <input
+                              id="name"
                               type="text"
                               name="name"
                               class="form-control"
@@ -767,7 +768,7 @@
                           <div class="form-group">
                             <i class="fa fa-envelope-o"></i>
                             <input
-                              id="form_email"
+                              id="email"
                               type="email"
                               name="email"
                               class="form-control"
@@ -783,7 +784,7 @@
                           <div class="form-group">
                             <i class="fa fa-question-circle-o"></i>
                             <input
-                              id="form_subject"
+                              id="phone"
                               type="text"
                               name="subject"
                               class="form-control"
@@ -799,7 +800,7 @@
                           <div class="form-group">
                             <i class="fa fa-comment-o"></i>
                             <textarea
-                              id="form_message"
+                              id="message"
                               name="message"
                               class="form-control"
                               placeholder="Message*"
@@ -809,7 +810,7 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="mybtn mybtn-bg" id="consult-button">
+                          <button type="submit" class="mybtn mybtn-bg" id="consult-button" >
                             <span>SUBMIT</span>
                           </button>
                         </div>
@@ -821,6 +822,10 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="confirmation">
+          <p id="consult-success" class="text-success"></p>
+          <p id="consult-error" class="text-danger"></p>
         </div>
       </section>
       <!-- Consult Area End -->
@@ -855,7 +860,7 @@
             <div class="col-lg-6">
               <div class="home-page-form">
                 <div class="contact-form">
-                  <form id="contact-form" method="post" action="">
+                  <form id="vip-form" method="post" action="">
                     <div class="controls">
                       <div class="row">
                         <div class="col-md-12">
@@ -941,7 +946,7 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="mybtn mybtn-bg" id="consult-button">
+                          <button type="submit" class="mybtn mybtn-bg" id="vip-button">
                             <span>Be Distinct</span>
                           </button>
                         </div>
@@ -953,6 +958,11 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="confirmation">
+          <p id="shoe-success" class="text-success"></p>
+          <p id="shoe-error" class="text-danger"></p>
         </div>
       </section>
 
@@ -1184,6 +1194,11 @@ The direct questions and catchphrases he uses are an integral part of his imagin
     </div>
 
     <!-- Main jquery and all jquery plugin hear -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/magnific-popup.js"></script>
@@ -1194,5 +1209,6 @@ The direct questions and catchphrases he uses are an integral part of his imagin
     <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <script src="assets/js/secret.js"></script>
   </body>
 </html>
